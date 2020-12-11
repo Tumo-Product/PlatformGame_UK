@@ -59,11 +59,7 @@ spanLink.onclick = function () {
     location.href = saveCoords(data);
 }
 //closes the main (start) popup
-spanStart.onclick = function () {
-    startPopUp.style.display = "none";
-    playerWonTemp = false;
-    popup = false;
-}
+
 //closes the popup which asks you to build a level
 spanBuild.onclick = function () {
     build.style.display = "none";
